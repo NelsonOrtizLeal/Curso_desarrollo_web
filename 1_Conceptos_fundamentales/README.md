@@ -43,8 +43,19 @@ Ahora bien, estos dispositivos se deben comunicar, deben tener un lenguaje en co
 
 Ya tenemos el idioma/lenguaje que utilizan para comunicarse entre dispositivos, ahora se necesita algun `medio` o `canal` por el cual se puedan comunicar, este `canal` es el `internet`.
 
+> El internet esta compuesto de multiples `protoloces` y capas de comunicacion, via la red.
+
 Significa que nuestro dispositivo esta conectado o interconectado en una red virtual en la que millones de computadoras estan solicitando y compartiendo informacion, un mundo virtual donde hay servidores y clientes.
 
-Para que nuestro dispositivo sepa a que servidor pedirle el recurso, necesitamos tener alguna forma de identificar, es decir debe existar una manera de saber que tu maquina es la numero 10 por ejemplo y cuando alguien necesite enviarte algo, solo diga que lo envie a la maquina con el numero 10, para que esto sea posible, para que todas las computadoras se puedan identificar es que existe el protocolo **IP** (Protocolo de internet), este protocolo te indica el numero de tu **router o servidor** al cual conectarte.
+Para que nuestro dispositivo sepa a que servidor pedirle el recurso, necesitamos tener alguna forma de identificar, es decir debe existar una manera de saber la direccion de la maquina a la que te quieres conectar. Para que todas las computadoras se puedan identificar y puedan saber a cual de millones de computadoras debe dirigirse es que existe el protocolo **IP** (Protocolo de internet/Internet Protocol), este protocolo te indentifica a que computadora o  **router** te quieres conectar, se menciona router porque es el dispositivo al cual conectas tu computadora para acceder al internet.
 
-Ahora bien, que un humano pueda recordar la `IP` es muy complicado, por lo que se invento un sistema de nombres de dominio, es decir en lugar de recordar la `IP` 123.456.789.000, podemos recordar un nombre mas amigable como `www.google.com`, este nombre es mas facil de recordar y es lo que conocemos como `URL` (Localizador Uniforme de Recursos) y los servidores de nombres de dominio (DNS) se encargan de traducir estos nombres amigables a direcciones IP que las computadoras pueden entender.
+> Utiliza el siguiente comando en tu CMD, para saber la IP de algún sitio web:
+>
+> ```cmd
+> ping www.google.com
+> ```
+>
+> Esto te devolverá la IP en la cual se encuentra el sitio.
+
+Ahora bien, que un humano pueda recordar la `IP` es muy complicado, por lo que se invento un sistema de nombres de dominio, es decir en lugar de recordar la `IP` 123.456.789.000, podemos recordar un nombre mas amigable como `www.google.com`, este nombre es mas facil de recordar y es lo que conocemos como `URL` (Localizador Uniforme de Recursos) y los servidores de nombres de dominio `(DNS)` se encargan de traducir estos nombres amigables a direcciones IP que las computadoras pueden entender.
+La forma en que se utilizar un DNS es parecido a como se utilizaba la seccion amarilla de telfonos, la cual era un directorio de nombres de personas y numeros.

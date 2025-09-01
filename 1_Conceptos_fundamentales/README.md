@@ -59,3 +59,27 @@ Para que nuestro dispositivo sepa a que servidor pedirle el recurso, necesitamos
 
 Ahora bien, que un humano pueda recordar la `IP` es muy complicado, por lo que se invento un sistema de nombres de dominio, es decir en lugar de recordar la `IP` 123.456.789.000, podemos recordar un nombre mas amigable como `www.google.com`, este nombre es mas facil de recordar y es lo que conocemos como `URL` (Localizador Uniforme de Recursos) y los servidores de nombres de dominio `(DNS)` se encargan de traducir estos nombres amigables a direcciones IP que las computadoras pueden entender.
 La forma en que se utilizar un DNS es parecido a como se utilizaba la seccion amarilla de telfonos, la cual era un directorio de nombres de personas y numeros.
+
+### Lenguajes de marcado
+
+Los lenguajes de marcado son una forma de codificación que se utiliza para estructurar y dar formato a documentos. A diferencia de los lenguajes de programación, que se centran en la lógica y el comportamiento, los lenguajes de marcado se centran en la presentación y la organización del contenido.
+
+El lenguaje de marcado más conocido es **HTML** (Lenguaje de Marcado de Hipertexto), que se utiliza para crear la estructura de las páginas web. HTML utiliza etiquetas para definir elementos como encabezados, párrafos, enlaces e imágenes.
+
+Otro lenguaje de marcado importante es **XML** (Lenguaje de Marcado Extensible), que se utiliza para almacenar y transportar datos de manera estructurada. A diferencia de HTML, XML no tiene un conjunto fijo de etiquetas, lo que permite a los desarrolladores definir sus propias etiquetas según las necesidades de la aplicación.
+
+Los lenguajes de marcado son fundamentales para la web, ya que permiten a los navegadores interpretar y mostrar el contenido de las páginas de manera adecuada.
+
+### HTML (HyperText Markup Language) / Lenguaje de Marcado de Hipertexto
+
+HTML es el lenguaje de marcado estándar para crear páginas web. Se basa en una serie de elementos y etiquetas que definen la estructura y el contenido de un documento. Los navegadores web interpretan estas etiquetas para mostrar el contenido de manera adecuada.
+
+HTML utiliza una estructura jerárquica de elementos, donde cada elemento se define mediante una etiqueta de apertura y una etiqueta de cierre. Por ejemplo, un párrafo se define con las etiquetas `<p>` y `</p>`. Además, HTML permite la inclusión de atributos en las etiquetas para proporcionar información adicional sobre los elementos.
+
+Que es Hypertexto
+
+El hipertexto es un concepto fundamental en la web que se refiere a la organización de la información en forma de texto interconectado. A diferencia del texto lineal tradicional, el hipertexto permite a los usuarios navegar a través de enlaces (links) que conectan diferentes partes de un documento o diferentes documentos entre sí. Esto crea una experiencia de lectura más dinámica y permite una exploración más profunda de la información.
+
+Es por eso el nombre para los (hiperlinks), o enlaces de hipertexto, que son los elementos que permiten esta interconexión. Ejemplo: [Google](https://www.google.com)
+
+`<a href="https://www.google.com">Google</a>`
